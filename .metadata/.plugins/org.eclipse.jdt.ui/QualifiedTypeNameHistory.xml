@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
     <fullyQualifiedTypeName name="br.com.erudio.model.Book"/>
     <fullyQualifiedTypeName name="br.com.erudio.response.Cambio"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
 </qualifiedTypeNameHistroy>

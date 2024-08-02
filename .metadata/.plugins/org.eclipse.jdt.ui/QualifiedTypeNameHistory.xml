@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="br.com.erudio.model.Book"/>
     <fullyQualifiedTypeName name="br.com.erudio.response.Cambio"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 </qualifiedTypeNameHistroy>

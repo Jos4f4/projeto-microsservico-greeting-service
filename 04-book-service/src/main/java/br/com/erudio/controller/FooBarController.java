@@ -5,15 +5,15 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
-
+@Tag(name = "Foo bar")
 @RestController
 @RequestMapping("book-service")
 public class FooBarController {
 	private Logger logger = LoggerFactory.getLogger(FooBarController.class);
 	
 	@GetMapping("/foo-bar")
+	@Operation(summary = "Foor bar")
 	//@Retry(name = "foo-bar", fallbackMethod = "fallbackMethod")
 	//@CircuitBreaker(name = "default", fallbackMethod = "fallbackMethod")
 	//@RateLimiter(name = "default")

@@ -1,0 +1,25 @@
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": ""
+    },
+    {
+      "role": "assistant",
+      "content": "Wath is name of brazilian emperors?"
+    },
+    {
+      "role": "assistant",
+      "content": "The name of the Brazilian emperors were:\n\n1. Emperor Dom Pedro I (1822-1831)\n2. Emperor Dom Pedro II (1831-1889)"
+    }
+  ],
+  "temperature": 1,
+  "max_tokens": 256,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}'
